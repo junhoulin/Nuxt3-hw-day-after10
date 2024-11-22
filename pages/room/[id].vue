@@ -62,7 +62,7 @@ const isProvide = function (isProvideBoolean = false) {
     <Meta name="twitter:title" :content="titleTemplate" />
     <Meta name="twitter:description" :content="title"/>
     <Meta name="twitter:image" :content="imgurl" />
-    <Meta name="twitter:card" content="imgurl" />
+    <Meta name="twitter:card" :content="imgurl" />
   </Head>
 
   <h2>房型詳細頁面</h2>
