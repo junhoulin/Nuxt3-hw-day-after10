@@ -1,0 +1,19 @@
+{
+  "name": "day18-plugin-use-question",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.13.0",
+    "vue": "latest",
+    "vue-loading-overlay": "^6.0.6",
+    "vue-router": "latest",
+    "vue3-colorpicker": "^2.3.0"
+  }
+}
