@@ -1,0 +1,26 @@
+{
+  "name": "day19-pinia-question",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.5",
+    "bootstrap": "^5.3.3",
+    "nuxt": "^3.13.0",
+    "pinia": "^2.2.8",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "sass": "1.70"
+  }
+}
